@@ -1,12 +1,10 @@
 DIR=$(dirname $0)
 source "$DIR/../paths.sh"
+source "$DIR/paths.sh"
 
 URL="http://download.geofabrik.de/europe/austria-latest.osm.pbf"
 TMP="/tmp/omm"
 FILENAME="austria.osm.pbf"
-BOUNDARY="$DIR/Vienna.extract.wkt"
-EXTRACT="$DIR/vienna.pbf"
-FILTERED="$DIR/vienna-filtered.pbf"
 
 FULLPATH="$TMP/$FILENAME"
 
