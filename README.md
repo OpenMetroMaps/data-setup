@@ -34,3 +34,12 @@ Inspect the model:
 Build the model:
 
     ./berlin/build-model.sh
+
+## TODO list
+
+* Create [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API)
+  queries in order to:
+  * build models from live data,
+  * avoid the need to download larger areas and lots of data we do not need,
+  * make scripts depend only on a boundary file and not on a URL of a
+    OSM data file that contains the specified area.
