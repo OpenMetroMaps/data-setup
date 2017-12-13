@@ -19,6 +19,10 @@ Use this to inspect the city boundaries (assuming you have the
 
 ## Running scripts
 
+These scripts are designed for Linux/macOS. Be sure to adapt
+[paths.sh](paths.sh) to let the variables point to the location of your
+main OpenMetroMaps installation.
+
 Downloading and extracting data:
 
     ./berlin/extract.sh
