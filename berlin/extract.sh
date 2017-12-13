@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DIR=$(dirname $0)
 source "$DIR/../paths.sh"
 source "$DIR/paths.sh"
