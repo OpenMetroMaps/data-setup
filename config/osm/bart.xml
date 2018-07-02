@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<omm-import-config version="1.0.0">
+  <!-- config for Bay Area Rapid Transport (BART) -->
+  <source type="osm">
+     <routes>
+       <bbox compact="37.182202,-123.079833,38.410558,-121.530761"/>
+       <tag key="type" value="route"/>
+       <tag key="network" value="BART"/>
+     </routes>
+  </source>
+</omm-import-config>
