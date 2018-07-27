@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<omm-import-config version="1.0.0">
+  <!-- config for Milano, Italy -->
+  <source type="osm">
+     <routes>
+       <bbox compact="45.286481,8.900299,45.647648,9.471588"/>
+       <tag key="route" value="tram"/>
+       <tag key="network" value="SITAM"/>
+     </routes>
+     <routes>
+       <bbox compact="45.286481,8.900299,45.647648,9.471588"/>
+       <tag key="route" value="subway"/>
+       <tag key="network" value="SITAM"/>
+     </routes>
+  </source>
+</omm-import-config>
